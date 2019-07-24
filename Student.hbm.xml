@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 19, 2019 6:10:43 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.maven.StudentProject.Student" table="STUDENT">
+      
+
+<id name="studentId" column="studentid"  />
+<property name="studentName" column="studentname" length="10"/>
+
+    </class>
+</hibernate-mapping>
